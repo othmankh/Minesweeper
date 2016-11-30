@@ -37,6 +37,7 @@ namespace Minesweeper.Solver
             try
             {
                 int locationValue = 0;
+
                 //To make the test for the corner succeed, we need to return the value -1, if the input value is -1.
                 if (inputBoard[rowIndex, colIndex] == -1)
                     return -1;
